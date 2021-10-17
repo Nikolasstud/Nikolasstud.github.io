@@ -1,2 +1,2 @@
-# Nikolasstud.github.io
+#  Коля Солохин
 Мой сайт
