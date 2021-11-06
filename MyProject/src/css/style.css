@@ -11,6 +11,8 @@ nav{
     color: #fff;
     line-height: 60px;
     float: left;
+    font-weight: 700;
+    width: 100%;
 }
 
 .menu{
@@ -47,17 +49,23 @@ nav{
     transform: scale(1.1);
 }
 
+main{
+    height: 100%;
+    width: 100%;
+}
 
 .osnova{
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) center no-repeat;
+    background: url(../img/ft.png) no-repeat right, url(../img/bg.jpg) center no-repeat;
     
 }
 
 .title_container{
     text-align: center;
-    float: left;    
+    float: left;  
+    width: 100%;  
+    padding-top: 50px;
 }
 
 .title_container h1{
@@ -95,18 +103,23 @@ nav{
     transform: scale(1.1);
 }
 
+.obomne{
+    height: 950px;
+    width: 100%;
+}
+
 .bg2{
     width: 100%;
     height: 100%;
-    background: url(../img/ft2.png) 50% 220px no-repeat, url(../img/bg2.jpg) center no-repeat;
+    background: url(../img/ft2.png) 50% 200px no-repeat, url(../img/bg2.jpg) center no-repeat;
 }
 
-.info h2{
+.row h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     color: #000;
     font-weight: bold;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .info ul{
